@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script defer src="javascript.js"></script>
+<title>Relógio e Data</title>
+<style>
+      body {
+        background-color: #161459;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Isso faz com que o corpo da página ocupe toda a altura da janela do navegador */
+        margin: 0; /* Remove margens padrão */
+    }
+    h1{
+      font-size: 50px;
+      color: azure;
+    }
+    .container{
+      color: azure;
+      border: 2px solid #473d88;
+      width: 50%;
+      height: 35%;
+     
+      border-radius: 20px;
+      background: rgba(255, 255, 255, .1);
+      background-color: #2e2871;
+    }
+    #relogio,#data{
+      font-size: 40px;
+    }
+
+  
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Hora e Data</h1>
+
+<div id="data"></div>
+<div id="relogio"></div>
+</div>
+
+
+</body>
+</html>
